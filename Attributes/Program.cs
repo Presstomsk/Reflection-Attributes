@@ -23,8 +23,8 @@ namespace Attributes
             // Объект класса Engineer, свойство YearsOld 
 
             Engineer Bob = new Engineer() { Name = "Bob", YearsOld = 24 };
-            if (ValidatePerson.ValidAge(Bob,out uint Attr)) Console.WriteLine($"А вот инженер {Bob.Name} старше {Attr} лет"); 
-            else Console.WriteLine($"А вот инженер {Bob.Name} младше {Attr} лет");
+            if (ValidatePerson.ValidAge(Bob,out uint Attr)) Console.WriteLine($"А инженер {Bob.Name} старше {Attr} лет"); 
+            else Console.WriteLine($"А инженер {Bob.Name} младше {Attr} лет");
 
         }
         

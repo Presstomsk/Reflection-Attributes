@@ -5,12 +5,11 @@ namespace AgeValidator
 {
     public class ValidatePerson
     {
-        public static bool ValidAge(object obj,out uint valueAttr)
+        public static bool ValidAge<T>(T obj,out uint valueAttr) where T:class
         {
-            if (obj.GetType().IsClass)
+            if (obj != null)
             {
-                Type type = obj.GetType();
-                var properties = type.GetProperties();
+                var properties = obj.GetType().GetProperties();
                 foreach (var property in properties)
                 {
                     var attributes = (AgeAttribute[])property.GetCustomAttributes(typeof(AgeAttribute), true);
@@ -24,8 +23,9 @@ namespace AgeValidator
                 }
                 throw new Exception("Атрибут не обнаружен!");
             }
-            else throw new Exception("Параметр не является экземрляром класса!");
+            else throw new Exception("Неинициализированный параметр");
         }
+        
     }
 }
 
