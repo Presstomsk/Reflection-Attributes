@@ -21,9 +21,9 @@ namespace AgeValidator
                         else return false;
                     }
                 }
-                throw new Exception("Атрибут не обнаружен!");
+                throw new AttributeException();
             }
-            else throw new Exception("Неинициализированный параметр");
+            else throw new UninitializedParameterException();
         }
         
     }
