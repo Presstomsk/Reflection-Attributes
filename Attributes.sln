@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{ACF3ADC5-DA80-4B82-9AF9-BE531A1A7AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeValidator", "AgeValidator\AgeValidator.csproj", "{6168BF93-FB58-4702-969B-202E6F70BCCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF3ADC5-DA80-4B82-9AF9-BE531A1A7AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF3ADC5-DA80-4B82-9AF9-BE531A1A7AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF3ADC5-DA80-4B82-9AF9-BE531A1A7AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF3ADC5-DA80-4B82-9AF9-BE531A1A7AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6168BF93-FB58-4702-969B-202E6F70BCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6168BF93-FB58-4702-969B-202E6F70BCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6168BF93-FB58-4702-969B-202E6F70BCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6168BF93-FB58-4702-969B-202E6F70BCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A374870-B87E-4F33-B9FA-61C516B0E3DB}
+	EndGlobalSection
+EndGlobal
